@@ -1,0 +1,112 @@
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+body{
+	background-color: white;
+}
+
+li{
+	display: inline;
+	padding: 7%;
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+}
+
+.logo{
+	text-align:center;
+}
+
+.bowl{
+	text-align: center;
+	padding: 2%
+}
+
+.header1{
+	text-align:center;
+}
+
+.column {
+	display: inline-block;
+	width: 40%;
+	padding: 40px 0;
+	margin-right: 3%;
+	text-align: center;
+
+}
+.circle img{
+	border-radius: 100%;
+}
+
+.mcol{
+	width:27%;
+	display: inline-block;
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 3%;
+	text-align: center;
+}
+
+.columns {
+	padding-bottom: 0;
+	padding-top: 0;
+	text-align: center;
+}
+
+.mcols{
+	padding: 5%;
+	padding-top: 0;
+	text-align: center;
+}
+
+.column:nth-child(2n){
+	margin-right: 0px;
+}
+
+.mcol:nth-child(3n){
+	margin-right: 0px;
+}
+
+h2{
+	text-align: left;
+	color: orange;
+}
+
+p{
+	text-align: left;
+}
+
+.orange{
+	background-color: orange;
+	color:white;
+	margin:0;
+}
+
+h3{
+	text-align: center;
+	padding: 7%
+
+}
+
+h4{
+	text-align: left;
+}
+
+@media only screen and (max-width: 1000px){
+	.column{
+		width:100%;
+	}
+	.mcol{
+		width:45%;
+	}
+
+}
+
+
+
+
+
